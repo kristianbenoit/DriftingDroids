@@ -21,7 +21,11 @@ game ID: 7650+42+E2302B12+C9
 
 "minimum number of robots moved" solution:
 
-first letter = robot (green, blue)
+first letter = robot (green, blue, yellow, red)
 second letter = direction (North, East, South, West)
-1) gS 2) gE 3) gN 4) gE 5) gS 6) gE 7) bN 8) bW 9) bS 10) bW 11) bS 12) bW 13) bS 14) bE 15) gS 16) gW 17) gS 18) gW 19) gN 20) bW 21) gS 22) gE 23) bS 24) bE 25) bN
-
+1st Solution:
+1    2    3    4    5    6  | 7    8    9    10   11   12   13   14 | 15   16   17   18   19 | 20 | 21   22 | 23   24   25
+gS   gE   gN   gE   gS   gE | bN   bW   bS   bW   bS   bW   bS   bE | gS   gW   gS   gW   gN | bW | gS   gE | bS   bE   bN
+2nd Solution:
+1    2    3    4    5  | 6    7    8  | 9    10   11   12   13   14   15 | 16 | 17 | 18 | 19   20   21 | 22   23   24   25
+yN   yE   yS   yE   yN | gN   gE   gS | bE   bS   bw   bN   bE   bS   bE | rE | gE | yS | rW   rS   rE | bW   bS   bE   bN
